@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/myreactSite/static/css/main.bc189146.css",
+    "main.css": "/myreactSite/static/css/main.da86c8cc.css",
     "main.js": "/myreactSite/static/js/main.e2de8102.js",
     "static/js/787.28cb0dcd.chunk.js": "/myreactSite/static/js/787.28cb0dcd.chunk.js",
     "static/media/Geometria-Medium.ttf": "/myreactSite/static/media/Geometria-Medium.a08bd436e4c28b3d487e.ttf",
@@ -9,12 +9,12 @@
     "static/media/Geometria-ExtraBold.ttf": "/myreactSite/static/media/Geometria-ExtraBold.18a041299e7335bde074.ttf",
     "static/media/logo.svg": "/myreactSite/static/media/logo.f02a479b111a8e8b57dad803d5928229.svg",
     "index.html": "/myreactSite/index.html",
-    "main.bc189146.css.map": "/myreactSite/static/css/main.bc189146.css.map",
+    "main.da86c8cc.css.map": "/myreactSite/static/css/main.da86c8cc.css.map",
     "main.e2de8102.js.map": "/myreactSite/static/js/main.e2de8102.js.map",
     "787.28cb0dcd.chunk.js.map": "/myreactSite/static/js/787.28cb0dcd.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.bc189146.css",
+    "static/css/main.da86c8cc.css",
     "static/js/main.e2de8102.js"
   ]
 }
