@@ -25,7 +25,7 @@ class Header extends Component {
                 <NavDropdown.Item href="#action/3.1">покупка</NavDropdown.Item>
                 <NavDropdown.Item href="#action/3.2">продажа</NavDropdown.Item>
                 <NavDropdown.Item href="#action/3.3">
-                  предзаказ
+                  предзаказ сейчас
                 </NavDropdown.Item>
                 <NavDropdown.Divider />
                 <NavDropdown.Item href="#action/3.4">валюта</NavDropdown.Item>
