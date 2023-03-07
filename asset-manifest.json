@@ -1,16 +1,20 @@
 {
   "files": {
-    "main.css": "/myreactSite/static/css/main.acd29ee8.css",
-    "main.js": "/myreactSite/static/js/main.da31cc26.js",
+    "main.css": "/myreactSite/static/css/main.bc189146.css",
+    "main.js": "/myreactSite/static/js/main.e2de8102.js",
     "static/js/787.28cb0dcd.chunk.js": "/myreactSite/static/js/787.28cb0dcd.chunk.js",
-    "static/media/logo.svg": "/myreactSite/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "static/media/Geometria-Medium.ttf": "/myreactSite/static/media/Geometria-Medium.a08bd436e4c28b3d487e.ttf",
+    "static/media/Geometria-Light.ttf": "/myreactSite/static/media/Geometria-Light.f23fd3be866de27b1c6d.ttf",
+    "static/media/Geometria-Bold.ttf": "/myreactSite/static/media/Geometria-Bold.1873fe842023d533821b.ttf",
+    "static/media/Geometria-ExtraBold.ttf": "/myreactSite/static/media/Geometria-ExtraBold.18a041299e7335bde074.ttf",
+    "static/media/logo.svg": "/myreactSite/static/media/logo.f02a479b111a8e8b57dad803d5928229.svg",
     "index.html": "/myreactSite/index.html",
-    "main.acd29ee8.css.map": "/myreactSite/static/css/main.acd29ee8.css.map",
-    "main.da31cc26.js.map": "/myreactSite/static/js/main.da31cc26.js.map",
+    "main.bc189146.css.map": "/myreactSite/static/css/main.bc189146.css.map",
+    "main.e2de8102.js.map": "/myreactSite/static/js/main.e2de8102.js.map",
     "787.28cb0dcd.chunk.js.map": "/myreactSite/static/js/787.28cb0dcd.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.acd29ee8.css",
-    "static/js/main.da31cc26.js"
+    "static/css/main.bc189146.css",
+    "static/js/main.e2de8102.js"
   ]
 }
