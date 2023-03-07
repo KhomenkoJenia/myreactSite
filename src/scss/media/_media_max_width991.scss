@@ -1,0 +1,118 @@
+@import "../variables.scss";
+
+@media screen and (max-width: 991px) {
+  .navbar {
+    .container {
+      padding: 12px 20px 13px 20px;
+      border-bottom: 1px solid #242424;
+      .group-logo {
+        img {
+          max-width: 92px;
+        }
+        .nav-item.dropdown {
+          display: none;
+        }
+      }
+      .navbar-brand {
+        padding: 0;
+      }
+      .navbar-toggler {
+        width: 46px;
+        height: 46px;
+        position: relative;
+        background-color: #20251b;
+        border-radius: 8px;
+
+        &:focus {
+          box-shadow: none;
+        }
+
+        span,
+        span:before,
+        span:after {
+          cursor: pointer;
+          border-radius: 1px;
+          height: 2px;
+          width: 22px;
+          background: $primary-color;
+          position: absolute;
+          left: auto;
+          top: 50%;
+          display: block;
+          content: "";
+        }
+
+        span:before {
+          top: -10px;
+        }
+
+        span:after {
+          top: 10px;
+        }
+
+        span,
+        span:before,
+        span:after {
+          transition: all 0.5s ease-in-out;
+        }
+
+        &:not(.collapsed) {
+          span {
+            background-color: transparent;
+          }
+          span:before,
+          span:after {
+            top: 0;
+          }
+          span:before {
+            transform: rotate(135deg);
+          }
+          span:after {
+            transform: rotate(-135deg);
+          }
+        }
+      }
+    }
+    .navbar-collapse {
+      div:first-child {
+        margin-top: 60px;
+      }
+    }
+
+    .navbar-nav {
+      text-align: center;
+      font-size: 30px;
+      line-height: 32px;
+
+      .dropdown-toggle::after {
+        content: "";
+        display: none;
+      }
+      .dropdown-toggle:hover::after {
+        content: "";
+        display: none;
+      }
+
+      a.nav-link {
+        color: $title-color;
+      }
+      .btn-outline-info {
+        margin: 100px auto 120px;
+        padding: 18px 126px;
+
+        font-weight: 600;
+        color: #000000;
+        font-size: 20px;
+        line-height: 19px;
+        background-color: $primary-color;
+        border-color: $primary-color;
+        &:hover {
+          color: #000000;
+          transition: 0.4s;
+          background-color: $theaty-color;
+          border-color: $theaty-color;
+        }
+      }
+    }
+  }
+}
