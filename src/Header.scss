@@ -1,0 +1,35 @@
+.group-logo {
+  display: flex;
+  align-items: center;
+  font-size: 10px;
+  margin-right: 360px;
+  img {
+    margin-right: 30px;
+    max-width: 100%;
+  }
+  .nav-item.dropdown {
+    font-size: 18px;
+    color: #8e938c;
+  }
+}
+.container {
+  .m-auto.navbar-nav {
+    a.nav-link {
+      color: #f7ffee;
+    }
+  }
+
+  .navbar-collapse {
+    font-size: 18px;
+    color: #f7ffee;
+  }
+  .btn-outline-info {
+    color: #f7ffee;
+    border-color: #8e938c;
+    &:hover {
+      color: #000000;
+      background-color: #b1ff5c;
+      border-color: #b1ff5c;
+    }
+  }
+}
