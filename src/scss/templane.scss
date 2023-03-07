@@ -1,0 +1,13 @@
+@import "variables.scss";
+
+* {
+  box-sizing: border-box;
+}
+.container {
+  padding: 42px 50px;
+  max-width: 1820px;
+}
+body {
+  font-family: "$font-primary";
+  background-color: $bg-color;
+}

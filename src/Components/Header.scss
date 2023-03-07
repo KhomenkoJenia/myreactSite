@@ -1,0 +1,87 @@
+@import "../scss/variables.scss";
+
+.navbar {
+  a:hover {
+    color: $hover-color;
+    transition: 0.5s;
+  }
+}
+.group-logo {
+  display: flex;
+  align-items: center;
+  font-size: 10px;
+  margin-right: 360px;
+  img {
+    margin-right: 30px;
+    max-width: 100%;
+  }
+  .nav-item.dropdown {
+    font-weight: 500;
+    font-size: 18px;
+    color: #8e938c;
+  }
+}
+.container {
+  .navbar-brand {
+    padding: 0;
+  }
+  .dropdown-menu.show {
+    color: $title-color;
+    background-color: rgb(218, 217, 217);
+    .dropdown-item:hover {
+      color: $bg-color;
+      background-color: $hover-color;
+    }
+  }
+  .dropdown-toggle::after {
+    content: "";
+    display: inline-block;
+    width: 12px;
+    height: 6px;
+    margin-left: 5px;
+    vertical-align: 1px;
+    border-top: 0;
+    border-right: 0;
+
+    border-left: 0;
+    background: url("data:image/svg+xml,%3Csvg width='14' height='9' viewBox='0 0 14 9' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M1 1L7 7L13 1' stroke='%238E938C' stroke-width='2'/%3E%3C/svg%3E")
+      center no-repeat;
+    &:hover {
+      background-image: url("data:image/svg+xml,%3Csvg width='14' height='9' viewBox='0 0 14 9' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M1 1L7 7L13 1' stroke='%239af03c' stroke-width='2'/%3E%3C/svg%3E");
+    }
+  }
+  .m-auto.navbar-nav {
+    a.nav-link {
+      font-weight: 500;
+      color: $title-color;
+      &:hover {
+        color: $hover-color;
+        transition: 0.3s;
+      }
+    }
+  }
+
+  .navbar-collapse {
+    font-size: 18px;
+    color: $title-color;
+  }
+  a.nav-link {
+    color: $title-color;
+    &:hover {
+      color: $hover-color;
+      transition: 0.3s;
+    }
+  }
+  .btn-outline-info {
+    padding: 0px 29px;
+    font-weight: 500;
+    color: $title-color;
+    border-color: #8e938c;
+    &:hover {
+      color: #000000;
+      transition: 0.4s;
+      background-color: $primary-color;
+      border-color: $primary-color;
+    }
+  }
+}
