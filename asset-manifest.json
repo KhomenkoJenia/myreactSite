@@ -1,20 +1,24 @@
 {
   "files": {
-    "main.css": "/myreactSite/static/css/main.46666e08.css",
-    "main.js": "/myreactSite/static/js/main.0a8750ee.js",
+    "main.css": "/myreactSite/static/css/main.27b14a83.css",
+    "main.js": "/myreactSite/static/js/main.90bbf25d.js",
     "static/js/787.28cb0dcd.chunk.js": "/myreactSite/static/js/787.28cb0dcd.chunk.js",
+    "static/media/kharkiv.png": "/myreactSite/static/media/kharkiv.0220518300552d1b0288.png",
     "static/media/Geometria-Medium.ttf": "/myreactSite/static/media/Geometria-Medium.a08bd436e4c28b3d487e.ttf",
     "static/media/Geometria-Light.ttf": "/myreactSite/static/media/Geometria-Light.f23fd3be866de27b1c6d.ttf",
     "static/media/Geometria-Bold.ttf": "/myreactSite/static/media/Geometria-Bold.1873fe842023d533821b.ttf",
     "static/media/Geometria-ExtraBold.ttf": "/myreactSite/static/media/Geometria-ExtraBold.18a041299e7335bde074.ttf",
+    "static/media/first-screen-card.png": "/myreactSite/static/media/first-screen-card.1ead1de4812f6240b1a3.png",
     "static/media/logo.svg": "/myreactSite/static/media/logo.f02a479b111a8e8b57dad803d5928229.svg",
+    "static/media/bitcoin.svg": "/myreactSite/static/media/bitcoin.bf20b48f1d2404140b4e27655743e71c.svg",
     "index.html": "/myreactSite/index.html",
-    "main.46666e08.css.map": "/myreactSite/static/css/main.46666e08.css.map",
-    "main.0a8750ee.js.map": "/myreactSite/static/js/main.0a8750ee.js.map",
+    "static/media/list-item.svg": "/myreactSite/static/media/list-item.dd13079744f8be568413.svg",
+    "main.27b14a83.css.map": "/myreactSite/static/css/main.27b14a83.css.map",
+    "main.90bbf25d.js.map": "/myreactSite/static/js/main.90bbf25d.js.map",
     "787.28cb0dcd.chunk.js.map": "/myreactSite/static/js/787.28cb0dcd.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.46666e08.css",
-    "static/js/main.0a8750ee.js"
+    "static/css/main.27b14a83.css",
+    "static/js/main.90bbf25d.js"
   ]
 }
