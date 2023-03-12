@@ -1,0 +1,15 @@
+.mainbox {
+  margin: 100px;
+  max-width: 1440px;
+  height: 164px;
+  background: url(../assets/img/kharkiv.png) center contain / no-repeat;
+  background-position: 50px 10px;
+}
+@keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}

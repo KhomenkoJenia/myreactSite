@@ -1,0 +1,236 @@
+@import "../scss/variables.scss";
+
+.carousel {
+  padding: 50px 130px;
+  margin-bottom: 250px;
+  min-height: 789px;
+
+  button.btn.btn-secondary {
+    background-color: #000000;
+    border: none;
+    color: $primary-color;
+    &::after {
+      content: "";
+      display: inline-block;
+      width: 12px;
+      height: 13px;
+      margin-left: 5px;
+      vertical-align: -3px;
+      border-top: 0;
+      border-right: 0;
+      transition: 0.5s;
+      border-left: 0;
+      background-image: url("data:image/svg+xml,%3Csvg width='12' height='13' viewBox='0 0 12 13' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M3 1L8 6L3 11' stroke='%23B1FF5C' stroke-width='2'/%3E%3C/svg%3E");
+    }
+  }
+
+  .container-fluid {
+    display: flex;
+
+    max-width: 1470px;
+    padding: 0 15px;
+    justify-content: space-between;
+    button.btn.btn-secondary.slide-button {
+      background-color: $primary-color;
+      font-size: 18px;
+      color: #000000;
+      padding: 28px 59px;
+      &::after {
+        display: none;
+      }
+      &:hover {
+        color: #000000;
+        transition: 0.4s;
+        background-color: $theaty-color;
+        border-color: $theaty-color;
+      }
+    }
+  }
+
+  .form-img-box {
+    label:first-child {
+      margin-top: 0;
+    }
+    max-width: 540px;
+    max-height: 679px;
+    margin-left: 20px;
+    padding: 40px;
+    background-color: rgb(244, 233, 233);
+    background: #080807;
+    box-shadow: 0px 4px 100px rgba(94, 209, 22, 0.686);
+    border-radius: 20px;
+    button {
+      margin-top: 10px;
+      max-width: 100%;
+      font-weight: 500;
+      font-size: 24px;
+      line-height: 30px;
+      text-align: center;
+      padding: 48px 138px;
+      color: #080807;
+      background-color: $primary-color;
+      &:hover {
+        color: #000000;
+        transition: 0.4s;
+        background-color: $theaty-color;
+        border-color: $theaty-color;
+      }
+    }
+  }
+  &__textbox {
+    max-width: 790px;
+  }
+
+  .carousel-indicators {
+    transform: translate(25%, 0);
+
+    button {
+      padding: 0;
+      margin: 0 10px;
+      border: none;
+      width: 8px;
+      height: 8px;
+      background-color: #fff;
+      border-radius: 55px;
+      &.active {
+        width: 244px;
+        background-color: $primary-color;
+      }
+      &:hover {
+        background-color: $theaty-color;
+      }
+
+      & [data-bs-target] {
+        button {
+          transition: 0, 3s;
+          width: 48px;
+        }
+      }
+    }
+  }
+
+  .carousel-inner {
+    overflow: inherit;
+    .row {
+      border: 1px solid #4f4f4f;
+      margin: 0;
+      border-radius: 12px;
+      background-color: #10100e;
+      padding: 36px 36px;
+      .form-select:focus {
+        border-color: none;
+        outline: 0;
+        box-shadow: none;
+      }
+
+      input {
+        padding: 0;
+        background-color: inherit;
+        border: none;
+        color: #f7ffee;
+        font-weight: 500;
+        font-size: 24px;
+        line-height: 30px;
+        &::placeholder {
+          color: #f7ffee;
+        }
+        &:focus {
+          box-shadow: none;
+          border-color: none;
+        }
+      }
+
+      .form-floating {
+        select {
+          padding: 0 20px;
+          color: #f7ffee;
+          background-color: inherit;
+          font-weight: 500;
+          font-size: 18px;
+          line-height: 23px;
+          border: 1px solid #4f4f4f;
+          border-radius: 8px;
+          &:hover {
+            background-color: $primary-color;
+            color: #10100e;
+            transition: 0.5s;
+          }
+          option {
+            background-color: aqua;
+          }
+        }
+      }
+
+      .col-md {
+        margin: 0;
+      }
+    }
+  }
+
+  label {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: #8e938c;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 25px;
+  }
+  label + label {
+    color: $primary-color;
+    margin-left: 20px;
+    font-size: 22px;
+  }
+  .carousel-control-prev {
+    display: none;
+  }
+  .carousel-control-next {
+    display: none;
+  }
+  ul {
+    margin-top: 80px;
+    margin-bottom: 80px;
+    padding: 0;
+    display: flex;
+    list-style: none;
+
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  li {
+    padding-left: 70px;
+    max-width: 300px;
+    height: 60px;
+    font-weight: 300;
+    font-size: 16px;
+    color: $title-color;
+    position: relative;
+    display: flex;
+    align-items: center;
+    margin-bottom: 40px;
+    &:before {
+      content: " ";
+
+      display: block;
+      position: absolute;
+      background-image: url(../assets/img/list-item.svg);
+      width: 50px;
+      height: 50px;
+      left: 0;
+      top: 5px;
+    }
+  }
+  .form-image {
+    margin-left: 20px;
+  }
+}
+#popover-positioned-right {
+  background-color: $bg-color;
+  color: $primary-color;
+  .popover-header {
+    background-color: $bg-color;
+  }
+  .popover-body {
+    color: $primary-color;
+  }
+}

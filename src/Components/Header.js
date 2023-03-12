@@ -4,6 +4,10 @@ import logonav from "../assets/img/logo.svg";
 import "./Header.scss";
 import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
 import Home from "../Pages/Home";
+import Buy from "../Pages/Buy";
+import Howitswork from "../Pages/Howitswork";
+import Wherefind from "../Pages/Wherefind";
+import Services from "../Pages/Services";
 
 class Header extends Component {
   render() {
@@ -25,7 +29,7 @@ class Header extends Component {
             <Navbar.Collapse id="responsive-navbar-nav">
               <Nav className="m-auto">
                 <NavDropdown title="послуги" id="collasible-nav-dropdown">
-                  <NavDropdown.Item href="/buy-usd">покупка</NavDropdown.Item>
+                  <NavDropdown.Item href="/buy">покупка</NavDropdown.Item>
                   <NavDropdown.Item href="/sale-usd">продажа</NavDropdown.Item>
                   <NavDropdown.Item href="/pre-sale">
                     предзаказ сейчас
@@ -54,6 +58,18 @@ class Header extends Component {
         <Router>
           <Routes>
             <Route exact path="/home" element={<Home />} />
+
+            <Route exact path="/buy" element={<Buy />} />
+            <Route exact path="/buy" element={<Buy />} />
+            <Route exact path="/buy" element={<Buy />} />
+            <Route exact path="/buy" element={<Buy />} />
+
+            <Route exact path="/how-its-work" element={<Howitswork />} />
+            <Route exact path="/contacts" element={<Wherefind />} />
+
+            <Route exact path="/services" element={<Services />} />
+            <Route exact path="/services" element={<Services />} />
+            <Route exact path="/services" element={<Services />} />
           </Routes>
         </Router>
       </>

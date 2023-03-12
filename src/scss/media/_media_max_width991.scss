@@ -115,4 +115,77 @@
       }
     }
   }
+  .carousel {
+    padding: 50px 20px;
+
+    button.btn.btn-secondary {
+      background-color: transparent;
+      position: relative;
+      &::before {
+        content: "";
+        position: absolute;
+
+        display: inline-block;
+        width: 50px;
+        height: 50px;
+        margin-left: 0px;
+        left: -50px;
+        top: -10px;
+        border-top: 0;
+        border-right: 0;
+        transition: 0.5s;
+        border-left: 0;
+        background: url(../../assets/img/bitcoin.svg) center / contain no-repeat;
+      }
+    }
+    h2 {
+      text-align: center;
+      line-height: 40px;
+      font-size: 32px;
+    }
+    h5 {
+      text-align: center;
+      line-height: 26px;
+      font-size: 18px;
+      margin-bottom: 20px;
+    }
+    ul {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin: 20px auto;
+    }
+
+    .carousel-indicators {
+      transform: translate(0, 0);
+      margin-bottom: -4rem;
+    }
+
+    .container-fluid {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+
+      button.btn.btn-secondary.slide-button {
+        width: 100%;
+        &::before {
+          display: none;
+        }
+      }
+      .carousel__textbox {
+        order: 2;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+      .form-img-box {
+        order: 1;
+        margin-bottom: 50px;
+        max-height: 800px;
+      }
+      .form-image {
+        margin-bottom: 50px;
+      }
+    }
+  }
 }

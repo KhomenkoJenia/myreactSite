@@ -5,6 +5,10 @@
     color: $hover-color;
     transition: 0.5s;
   }
+  .container {
+    padding: 42px 50px;
+    max-width: 1920px;
+  }
 }
 .group-logo {
   display: flex;
