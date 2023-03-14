@@ -68,62 +68,62 @@ class CarouselBox extends Component {
               ))}
             </div>
             <div class="form-img-box">
-              <label>віддаю</label>
-              <Row className="g-2">
-                <Col md>
-                  <FloatingLabel controlId="floatingInputGrid">
-                    <Form.Control placeholder="1000" type="text" />
-                  </FloatingLabel>
-                </Col>
-                <Col md>
-                  <FloatingLabel controlId="floatingSelectGrid">
-                    <Form.Select aria-label="Floating label select example">
-                      <option>
-                        <img src={bitcoin} alt="logo" />
-                        Bitcoin
-                      </option>
-                      <option value="1">
-                        <img src={bitcoin} alt="logo" />
-                        One
-                      </option>
-                      <option value="2">Two</option>
-                      <option value="3">Three</option>
-                    </Form.Select>
-                  </FloatingLabel>
-                </Col>
-              </Row>
+              <form>
+                <label>віддаю</label>
+                <Row className="g-2">
+                  <Col md>
+                    <FloatingLabel controlId="floatingInputGrid">
+                      <Form.Control placeholder="1000" type="text" />
+                    </FloatingLabel>
+                  </Col>
+                  <Col md>
+                    <FloatingLabel controlId="floatingSelectGrid">
+                      <Form.Select aria-label="Floating label select example">
+                        <option>
+                          <img src={bitcoin} alt="logo" />
+                          Bitcoin
+                        </option>
+                        <option value="1">
+                          <img src={bitcoin} alt="logo" />
+                          One
+                        </option>
+                        <option value="2">Two</option>
+                        <option value="3">Three</option>
+                      </Form.Select>
+                    </FloatingLabel>
+                  </Col>
+                </Row>
 
-              <label>отримаю</label>
-              <Row className="g-2">
-                <Col md>
-                  <FloatingLabel controlId="floatingInputGrid">
-                    <Form.Control placeholder="1000" type="text" />
-                  </FloatingLabel>
-                </Col>
-                <Col md>
-                  <FloatingLabel controlId="floatingSelectGrid">
-                    <Form.Select aria-label="Floating label select example">
-                      <option>гривня</option>
-                      <option value="1" One data-thumbnail="src={bitcoin}">
-                        долар
-                      </option>
-                      <option value="2">евро</option>
-                      <option value="3">песи</option>
-                    </Form.Select>
-                  </FloatingLabel>
-                </Col>
-              </Row>
+                <label>отримаю</label>
+                <Row className="g-2">
+                  <Col md>
+                    <FloatingLabel controlId="floatingInputGrid">
+                      <Form.Control placeholder="1000" type="text" />
+                    </FloatingLabel>
+                  </Col>
+                  <Col md>
+                    <FloatingLabel controlId="floatingSelectGrid">
+                      <Form.Select aria-label="Floating label select example">
+                        <option>гривня</option>
+                        <option value="1" One data-thumbnail="src={bitcoin}">
+                          долар
+                        </option>
+                        <option value="2">евро</option>
+                        <option value="3">песи</option>
+                      </Form.Select>
+                    </FloatingLabel>
+                  </Col>
+                </Row>
 
-              <div ClassName="group-course">
-                <label>курс обміну</label>
-                <label>1 USD = 39 UAH</label>
-              </div>
+                <div ClassName="group-course">
+                  <label>курс обміну</label>
+                  <label>1 USD = 39 UAH</label>
+                </div>
 
-              <Button type="select" variant="btn">
-                відправити заявку
-              </Button>
-
-              <Carousel.Caption></Carousel.Caption>
+                <Button type="select" variant="btn">
+                  відправити заявку
+                </Button>
+              </form>
             </div>
           </div>
         </Carousel.Item>
