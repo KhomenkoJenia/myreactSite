@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/myreactSite/static/css/main.27b14a83.css",
-    "main.js": "/myreactSite/static/js/main.90bbf25d.js",
+    "main.css": "/myreactSite/static/css/main.f28d1abb.css",
+    "main.js": "/myreactSite/static/js/main.deb8678a.js",
     "static/js/787.28cb0dcd.chunk.js": "/myreactSite/static/js/787.28cb0dcd.chunk.js",
     "static/media/kharkiv.png": "/myreactSite/static/media/kharkiv.0220518300552d1b0288.png",
     "static/media/Geometria-Medium.ttf": "/myreactSite/static/media/Geometria-Medium.a08bd436e4c28b3d487e.ttf",
@@ -13,12 +13,12 @@
     "static/media/bitcoin.svg": "/myreactSite/static/media/bitcoin.bf20b48f1d2404140b4e27655743e71c.svg",
     "index.html": "/myreactSite/index.html",
     "static/media/list-item.svg": "/myreactSite/static/media/list-item.dd13079744f8be568413.svg",
-    "main.27b14a83.css.map": "/myreactSite/static/css/main.27b14a83.css.map",
-    "main.90bbf25d.js.map": "/myreactSite/static/js/main.90bbf25d.js.map",
+    "main.f28d1abb.css.map": "/myreactSite/static/css/main.f28d1abb.css.map",
+    "main.deb8678a.js.map": "/myreactSite/static/js/main.deb8678a.js.map",
     "787.28cb0dcd.chunk.js.map": "/myreactSite/static/js/787.28cb0dcd.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.27b14a83.css",
-    "static/js/main.90bbf25d.js"
+    "static/css/main.f28d1abb.css",
+    "static/js/main.deb8678a.js"
   ]
 }
