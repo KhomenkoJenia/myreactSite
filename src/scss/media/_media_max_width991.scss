@@ -116,8 +116,12 @@
     }
   }
   .carousel {
-    padding: 50px 20px;
-
+    min-height: 1185px;
+    .group-course {
+      label + label {
+        margin-left: 0;
+      }
+    }
     button.btn.btn-secondary {
       background-color: transparent;
       position: relative;
@@ -166,7 +170,10 @@
       flex-direction: column;
       align-items: center;
 
-      button.btn.btn-secondary.slide-button {
+      button.btn.btn-btn {
+        font-size: 18px;
+        color: #000000;
+        padding: 28px 59px;
         width: 100%;
         &::before {
           display: none;
@@ -180,18 +187,20 @@
       }
       .form-img-box {
         order: 1;
-        margin-bottom: 50px;
-        max-height: 800px;
-
         margin-left: 0;
-        .row {
-          padding: 10px 5px;
-        }
+        padding: 15px;
+        box-shadow: none;
+      }
+      .row {
+        padding: 20px 5px;
       }
       .form-image {
         margin-bottom: 50px;
-        margin-left: 0;
+        margin-left: 0px;
       }
     }
+  }
+  .container-rain {
+    padding: 20px;
   }
 }

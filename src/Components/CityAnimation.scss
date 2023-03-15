@@ -1,15 +1,49 @@
-.mainbox {
-  margin: 100px;
-  max-width: 1440px;
-  height: 164px;
-  background: url(../assets/img/kharkiv.png) center contain / no-repeat;
-  background-position: 50px 10px;
+.container-rain {
+  h2 + div {
+    border-top: none;
+    margin-top: 50px;
+  }
 }
-@keyframes scroll {
+
+.mainbox {
+  max-width: 1440px;
+  min-height: 164px;
+  background: url(../assets/img/kharkiv.png) center no-repeat;
+  background-size: 100%;
+  display: flex;
+  align-items: center;
+  border-top: 4px solid #e2e0e0;
+
+  &:hover {
+    transform-box: fill-box;
+    animation: city_move 8s linear infinite;
+  }
+
+  h3 {
+    font-weight: 600;
+    line-height: 42px;
+    font-size: 32px;
+    color: white;
+    margin-left: 3rem;
+  }
+}
+.kyiv {
+  background: url(../assets/img/kyiv.png) center no-repeat;
+}
+.odessa {
+  background: url(../assets/img/odesa.png) center no-repeat;
+}
+.lviv {
+  background: url(../assets/img/lviv.png) center no-repeat;
+}
+@keyframes city_move {
   0% {
-    transform: translateX(0);
+    background-position-y: 0;
+  }
+  50% {
+    background-position-y: 100%;
   }
   100% {
-    transform: translateX(-100%);
+    background-position-y: 0;
   }
 }
