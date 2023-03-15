@@ -1,9 +1,12 @@
 {
   "files": {
-    "main.css": "/myreactSite/static/css/main.a6bf9b6f.css",
-    "main.js": "/myreactSite/static/js/main.deb8678a.js",
+    "main.css": "/myreactSite/static/css/main.19127256.css",
+    "main.js": "/myreactSite/static/js/main.de80483c.js",
     "static/js/787.28cb0dcd.chunk.js": "/myreactSite/static/js/787.28cb0dcd.chunk.js",
+    "static/media/odesa.png": "/myreactSite/static/media/odesa.4fc46a00c25920824348.png",
+    "static/media/kyiv.png": "/myreactSite/static/media/kyiv.71d9a39bba903ae34d97.png",
     "static/media/kharkiv.png": "/myreactSite/static/media/kharkiv.0220518300552d1b0288.png",
+    "static/media/lviv.png": "/myreactSite/static/media/lviv.3d1a5f8be5881c2f2077.png",
     "static/media/Geometria-Medium.ttf": "/myreactSite/static/media/Geometria-Medium.a08bd436e4c28b3d487e.ttf",
     "static/media/Geometria-Light.ttf": "/myreactSite/static/media/Geometria-Light.f23fd3be866de27b1c6d.ttf",
     "static/media/Geometria-Bold.ttf": "/myreactSite/static/media/Geometria-Bold.1873fe842023d533821b.ttf",
@@ -13,12 +16,12 @@
     "static/media/bitcoin.svg": "/myreactSite/static/media/bitcoin.bf20b48f1d2404140b4e27655743e71c.svg",
     "index.html": "/myreactSite/index.html",
     "static/media/list-item.svg": "/myreactSite/static/media/list-item.dd13079744f8be568413.svg",
-    "main.a6bf9b6f.css.map": "/myreactSite/static/css/main.a6bf9b6f.css.map",
-    "main.deb8678a.js.map": "/myreactSite/static/js/main.deb8678a.js.map",
+    "main.19127256.css.map": "/myreactSite/static/css/main.19127256.css.map",
+    "main.de80483c.js.map": "/myreactSite/static/js/main.de80483c.js.map",
     "787.28cb0dcd.chunk.js.map": "/myreactSite/static/js/787.28cb0dcd.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.a6bf9b6f.css",
-    "static/js/main.deb8678a.js"
+    "static/css/main.19127256.css",
+    "static/js/main.de80483c.js"
   ]
 }
